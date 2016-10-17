@@ -1,0 +1,67 @@
+1.单行
+2.多行
+3.文档注释
+4.作业：javadoc
+5.标识符的命名：
+  首字符：字母，$，_可以的
+  非首字符：字母 ,$,_,数字
+6.
+   abstract：抽象的
+   boolean:true false
+   break:中断:switch 循环
+   byte:字节 bit
+   continue:继续
+   case:事件
+   catch：捕获
+   char：字符 'A'0-65535
+   class:类
+   do：do
+   double:双精度浮点：
+   float：单精度浮点
+   default:默认：switch
+   else：否则
+   extends:继承
+   finally：最终的。
+   final：最终的
+   for：for
+   long：长的整数类型
+   if：如果
+   implements:实现
+   import：导入
+   new：开辟一个堆，实例化
+   instanceof：xxxx的实例
+   int：整数
+   interface：接口
+   package：包
+   private：私有的
+   protected：保护的
+   public:公共的。
+   return：返回
+   short：短整
+   static:静态的 dynamic
+   super:超级的
+   switch:开关
+   synchronized:同步  Asynchronized：异步
+   this：这个 me
+   while
+   void:无返回
+   throw：抛出一个异常
+   throws：抛出多个异常
+   try：尽力
+7.primitive type：原始的类型
+    整数类型：byte,short,int,long
+    浮点类型：float,double
+    字符类型:char
+    布尔类型：boolean
+  reference type:引用类型--C++ 指针类型
+    class array interface null ...
+byte:0000 0001:1 0000 0010: 1111 1111
+     -128--127
+short:-32768--32767
+char 0000 0000 0000 0001
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+整数类型：
+  byte(8)<short(16)<int(32)<long(64)
+浮点类型：
+  float(32)<double(64)
+字符类型:unicode
+  char(16):0-65535
+布尔类型:
+  boolean:true[1],false[0]
+long类型：long l=100L;必须加L
+java的默认整数类型：int
+java的默认浮点类型：double
+科学计数法必须是浮点类型。
+
+作业：dataType：PPT
+
+自动提升：做运算的时候，结果根据类型大的走。
+算术异常：ArithmeticException:算术异常
+
+作业：我叫 XXX，我来自哈理工
+通过以上作业，我们理解int 在0-65535之间和char是一回事

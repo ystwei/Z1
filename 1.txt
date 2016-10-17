@@ -1,0 +1,21 @@
+J2ME:Java 2 Micro Edition
+J2SE:Java 2 Standard Edition:java2 标准版
+J2EE:Java 2 Enterprise Editon:Java 2 企业版
+Platform:平台
+windows
+linux;centos ubuntu Kali
+unix:
+ios
+mac
+dos
+java--Compile -->class--解释->platform
+javac                   java
+JVM:java virtual machine:
+JRE:java Runtime Environment:
+JDK:java development kits;
+GC:Garbage Collection:---->heap:堆
+stack:栈
+argument:形参
+
+
+
