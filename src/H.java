@@ -24,8 +24,29 @@ public class H {
 //        int b=3*a+++a+--a+1;
 //        System.out.println(a);//2
 //        System.out.println(b);//12
-        int year=2001;
-        System.out.println((((year%4==0)&&(year%100!=0))||(year%400==0))?"真":"假");
+//        int year=2001;
+//
+//        System.out.println((((year%4==0)&&(year%100!=0))||(year%400==0))?"真":"假");
+
+
+        double x = 9.987;
+        double y = 1;
+        double t = x+y;
+        String s = "Price is:"+x;
+        String st = "Total Price is:"+t;
+        System.out.println(s);
+        System.out.println(st);
+        System.out.println(""+x*y);
+        System.out.println(""+x+y);
+        System.out.println(x+y+"");
+        System.out.println(x+" "+y*1+"");
+        System.out.println(x+" "+1*1+"");
+        System.out.println(x+"y"+y+1.0+"x");
+        System.out.println('A'+x+""+y+1*x+"x"+y);
+        int a=100;
+        String result=1==1?"1":"2";
+        System.out.println(result);
+
     }
 
 
