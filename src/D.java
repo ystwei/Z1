@@ -30,5 +30,7 @@ public class D {
         System.out.println(1+""+'a'+'b');
         System.out.println('a'+""+'b');
         System.out.println('d'+1*'a'+'c');
+
+
     }
 }
