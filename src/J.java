@@ -6,9 +6,8 @@ public class J {
    public static void main(String[] args) {
        area();
        area1(10,2);
-
-
        System.out.print(area2(10,2));
+
    }
     static void area(){
         int a=10;
