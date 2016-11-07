@@ -1,0 +1,16 @@
+1.OOP：Orient Object Program
+2.类的三大特性：
+  1.封装:(Encapsulation);
+  2.多态:(Polymorphism):multi media
+  3.继承：(Inheritance)
+3.类是抽象的，概念的，对象是具体的(specific)
+4.属性：Attribute,property，field， global varriable
+  方法：Method：function,procedure
+5.getter /setter
+
+6.作业：快排+二分
+7.作业：sex no old name,address money{ Student,People } getter/setter
+   不仅赋值，还有取值，说出来一句话
+8.modifiers:修饰符
+  constructor：构造器
+  argument:形参
