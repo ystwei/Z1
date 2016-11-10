@@ -7,3 +7,15 @@
 7.作业：练习形参是字符串的
 8.字符串：叫做常量，String Integer,Double Float Byte Character Short Boolean Long
 8.封装：Encapsulation:
+9.java.lang:默认包 不用引用
+10.Object的核心方法：
+
+   clone：克隆对象
+   equals:比较引用累心的值是否相等。
+   hashCode:生成hash码
+   toString：把对象变成字符串。
+   finalize:垃圾回收在执行前必走的方法，判断堆是否被引用。
+   class:运行时类。
+   wait：让当前线程等待。
+   notifyAll:唤醒所有线程
+   notify：唤醒当前线程。
