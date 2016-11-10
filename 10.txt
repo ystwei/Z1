@@ -4,4 +4,6 @@
 4.作业：司机卡车
 5.当基本类型做形参，它传递的是值，值传递
 6.当引用类型做形参，它传递的是自己(地址),引用传递
-
+7.作业：练习形参是字符串的
+8.字符串：叫做常量，String Integer,Double Float Byte Character Short Boolean Long
+8.封装：Encapsulation:

@@ -19,18 +19,18 @@ public class Student {
     }
     Student(int old,int old1,int old2,int old3){
     }
-    String name;//attribute 卫昆
-    int old;
-    char sex;
-    String getAddress() {
+    public String name;//attribute 卫昆 default
+    private int old;
+    private char sex='女';
+    public String getAddress() {
         return address;
     }
-    void setAddress(String address) {
+    public void setAddress(String address) {
         this.address = address;
     }
 
-    String address;
-    int getOld() {
+    private String address;
+    public int getOld() {
         return old;
     }
 
@@ -43,7 +43,11 @@ public class Student {
     }
 
     public void setSex(char sex) {
-        this.sex = sex;
+        if(sex!='女'){
+            this.sex = '女';
+            System.out.println("你傻逼啊！");
+        }
+
     }
 
     String getName(){//告诉给别人，读
