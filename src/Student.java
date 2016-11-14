@@ -31,7 +31,7 @@ public class Student {
 
     private String address;
     public int getOld() {
-        return old;
+        return this.old;
     }
 
     public void setOld(int old) {
@@ -39,7 +39,7 @@ public class Student {
     }
 
     public char getSex() {
-        return sex;
+        return this.sex;
     }
 
     public void setSex(char sex) {
