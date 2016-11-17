@@ -4,6 +4,8 @@
   b.方法 method
   c.构造器 constructor
   d.块 block
+  f.static{}
+  g.inner class:内部类
 3.动态初始化块优于构造器先执行。对于静态调用，他不执行，必须经历实例化才走。
   动态初始化块实际上就是一个没名字和没形参的方法。
 4.***作业：自己手写个{},this(),super() super(~),this(~)三级，观察其执行顺序，理解其用法
@@ -15,3 +17,11 @@
                   看形参个数 顺序 类型 数量，不看返回值，不看修饰符
 8.访问权限：
   private  < [default] <  protected  <   public
+9.import:导入, package
+  C#:using   ,namespace
+  C:include
+10.作业：观察其使用的场合。
+   public:所有的类都能看到，能跨包使用。
+   protected：在继承关系中，当实例化子类时，可以跨包看到其修饰的成员
+   default：在继承关系中，当实例化子类时，只能在同一包看到其修饰的成员
+   private：所有类都看不到，
