@@ -11,3 +11,12 @@
   a.实例化匿名内部类。
   b.形参匿名内部类。
   c.返回值匿名内部类
+5.格式化日期的类：SimpleDateFormat
+6.Math.abs
+  ceil,
+  floor
+  random
+  pow
+  round:对整数位的四舍五入
+  选作作业：写出a-z10个随机数，且不能重复。
+  选作作业:四舍六入。
