@@ -6,7 +6,6 @@ package com.weikun.C;
 public enum ESeason {
     //有限个对象，public static final ESeason SPRING=new ESeason();
     SPRING,SUMMER,FALL,WINTER;
-
     void go(){
         switch (this){
             case SPRING:
