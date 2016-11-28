@@ -1,0 +1,13 @@
+1.String连接问题导致频繁开堆，是系统变慢，因此使用StringBuffer或StringBuilder做字符串连接。
+2.作业：reverse insert append delete replace indexOf 这些都是干啥用的，写注释，观察其现象。
+  StringBuffer和StringBuilder区别：
+  StringBuffer：线程同步，安全，但是速度慢。
+  StringBuilder：线程异步，不安全，速度快。
+3.String常量，当值相同，他们指向同一个堆。
+  作业:concat,valueOf,equals,equalsIgnoreCase,compareTo,startWith,endsWith
+       indexOf,lastIndexOf,substring,split;
+  作业：trim()：是去掉左右空格，你编个能去掉中间空格的。
+  作业：重写equals.
+  前缀：prefix
+  后缀：suffix
+
