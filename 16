@@ -7,3 +7,18 @@
         深层克隆(Deep Clone)
 5.组合：composite(A生 B必须生)
   聚合：Aggregation(A生，B不一定生)
+6.RuntimeException
+      NullPointerException：空指针错误
+      ArithmeticException:算术错误
+      ArrayIndexOutOfBoundsException:数组索引越界异常
+      ClassNotFoundException;类没有找到异常
+      ClassCastException：类转换异常
+  IOException：输入输出异常
+      FileNotFoundException:文件未找到异常
+      EOFException：读写文件末尾异常
+      SocketException:套接字异常。
+7.作业：try catch finally
+  throw[语句] throws[方法后面]
+8、在重写中，父亲的抛出异常应该是大于等于儿子抛出的异常。
+9.作业：圆的面积 自定义异常。
+

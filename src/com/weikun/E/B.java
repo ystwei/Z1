@@ -21,6 +21,7 @@ public class B {
 //        for( Animal i :a){
 //            System.out.println(i.getName());
 //        }
-       // Arrays.sort(a);
+      // Arrays.sort(a);
+
     }
 }

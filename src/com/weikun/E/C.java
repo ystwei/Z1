@@ -23,7 +23,7 @@ public class C {
         System.out.println(p1.getPro().getSex());
     }
 }
-class Professor{
+class Professor implements Cloneable{
     public Professor(String sex) {
         this.sex = sex;
     }
@@ -36,6 +36,11 @@ class Professor{
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
 class People implements Cloneable{
@@ -78,6 +83,8 @@ class People implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        People n=(People)super.clone();
+        n.pro=(Professor) this.pro.clone();
+        return n;
     }
 }
