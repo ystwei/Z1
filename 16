@@ -1,0 +1,9 @@
+1.Comparable:比较接口
+  public int compareTo(Object o)
+2.作业：对象数组的排序和对象People数组的查找 old,address(old==address)
+3.Cloneable:克隆接口
+   protected Object clone() throws CloneNotSupportedException
+4.作业：浅层克隆(Fleet Clone)
+        深层克隆(Deep Clone)
+5.组合：composite(A生 B必须生)
+  聚合：Aggregation(A生，B不一定生)
