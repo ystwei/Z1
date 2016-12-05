@@ -1,3 +1,17 @@
 1.作业：写一个文件拷贝，大文件。[Stream reader/writer]
 2.buffer:缓冲
   cache：缓存
+3.InputStream:FileInputStream BufferedInputStream
+  OutputStream:FileOutputStream BufferedOutputStream
+  Reader:FileReader read(buffer)
+  Writer:FileWriter writer(buffer,0,n)
+  InputStreamReader:
+  OuputStreamWriter:
+  System.in
+  Scanner:nextLine()
+  BufferedReader:readLine();
+4.RandomAccessFile:Object:
+  作业：做歌曲合并 千千静听 winnamp winplayer
+  flush:
+5.Serializable:
+6.作业：拷贝目录：且里面有子目录，子子目录。当然里面有文件
