@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Z1:jar">
+    <output-path>C:/Z1_jar</output-path>
+    <root id="archive" name="Z1_jar.jar">
+      <element id="archive" name="Z1.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/com/weikun/F/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="Z1" />
+      </element>
+      <element id="library" level="module" name="JUnit4" module-name="Z1" />
+    </root>
+  </artifact>
+</component>
