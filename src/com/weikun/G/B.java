@@ -3,19 +3,22 @@ package com.weikun.G;
 /**
  * Created by Administrator on 2016/12/14.
  */
-public class A {
-
+public class B {
     public static void main(String[] args) {
-        A1 a1=new A1();
-        a1.setName("A1");
-        a1.start();
+        B1 b1=new B1();
+        Thread t1=new Thread(b1);
+        t1.setName("B1");
+        t1.start();
 
-        A1 a2=new A1();
-        a2.setName("A2");
-        a2.start();
+        B1 b2=new B1();
+        Thread t2=new Thread(b2);
+        t2.setName("B2");
+        t2.start();
     }
 }
-class A1 extends Thread{//多线程类
+class B1 implements  Runnable{
+
+
     @Override
     public void run() {
         for(int i=0;i<1000;i++){
