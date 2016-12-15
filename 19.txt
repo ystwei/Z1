@@ -1,0 +1,10 @@
+1.List--
+
+  ArrayList：线程不安全，速度快
+  Vector:线程安全的，速度慢
+2.作业：以上两种集合的遍历
+3.作业：打开冰箱，查看物品
+4.作业：购物车
+5.作业：LinkedList:操作增加删除，性能非常好，
+6.HashMap:线程不安全，速度快，父亲是Map，可以存null键 null值
+  Hashtable:线程安全，速度慢，父亲是dictionary，不能存null和null值
