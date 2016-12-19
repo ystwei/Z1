@@ -4,7 +4,7 @@
 public class TestS {
     public static void main(String[] args) {
         Student s=new Student();
-        s.setSex('ç”·');
+        s.setSex('ÄÐ');
         System.out.print(s.getSex());
     }
 }

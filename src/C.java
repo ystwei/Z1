@@ -5,19 +5,19 @@ public class C {
     public static void main(String[] args) {
         System.out.println(-2.2/-0.0);//ArithmeticException
         String c="AB";//char [0-65535]
-        int c1='å«';
-        char ä½ =21355;//int=char[0-65535]: \u0000---\uFFFF unicode ASCII[0-255]
+        int c1='ÎÀ';
+        char Äã=21355;//int=char[0-65535]: \u0000---\uFFFF unicode ASCII[0-255]
         System.out.println(c1);
-        System.out.println(ä½ );
-        int c2='\t';//ç©ºæ ¼çš„unicodeçš„10è¿›åˆ¶
+        System.out.println(Äã);
+        int c2='\t';//¿Õ¸ñµÄunicodeµÄ10½øÖÆ
         System.out.println(c2);//A:65 Z:90 a:97 z:122 \n:10 \r:13 \b:8 \t:9
         char c3='\u000B';
         System.out.println(c3);
 
-        String s="åŒ—äº¬"+'\n'+"æˆ‘çˆ±ä½ ";
-        String s1="åŒ—äº¬\næˆ‘çˆ±ä½ ";
-        System.out.print("åŒ—äº¬\\\\å¤©å®‰é—¨");
-        System.out.print("æˆ‘æ¨ä½ ");
-        String s2=null;//æ ˆä¸ºç©º
+        String s="±±¾©"+'\n'+"ÎÒ°®Äã";
+        String s1="±±¾©\nÎÒ°®Äã";
+        System.out.print("±±¾©\\\\Ìì°²ÃÅ");
+        System.out.print("ÎÒºŞÄã");
+        String s2=null;//Õ»Îª¿Õ
     }
 }

@@ -23,7 +23,7 @@ public class D {
         //GB2312<GBK<GB18030<UTF-8(unicode)<UTF-16
         //BIG5
         try {
-            String str1 = new String("æˆ‘çˆ±ä½ ".getBytes("ISO8859-1"), "gb2312");
+            String str1 = new String("ÎÒ°®Äã".getBytes("ISO8859-1"), "gb2312");
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();

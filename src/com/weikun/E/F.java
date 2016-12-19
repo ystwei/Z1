@@ -12,13 +12,13 @@ public class F {
     }
     void go() {
         String result="SUCCESS";
-        if(result.equals("ä½ è¢«æŠ“äº†ï¼")){
+        if(result.equals("Äã±»×¥ÁË£¡")){
             try {
                 throw new Exception();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
-        System.out.println("ä½ è¿‡äº†ï¼");
+        System.out.println("Äã¹ıÁË£¡");
     }
 }

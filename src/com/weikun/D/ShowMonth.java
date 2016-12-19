@@ -9,30 +9,30 @@ import java.util.Date;
  */
 public class ShowMonth {
     public static void main(String[] args) {
-        Calendar calendar = Calendar.getInstance();// è·å–ä¸€ä¸ªCalendarå¯¹è±¡
-        int count = 0;// å®šä¹‰ä¸€ä¸ªè®¡æ•°å˜é‡
-        //å¾—åˆ°å½“å‰å¹´
+        Calendar calendar = Calendar.getInstance();// »ñÈ¡Ò»¸öCalendar¶ÔÏó
+        int count = 0;// ¶¨ÒåÒ»¸ö¼ÆÊı±äÁ¿
+        //µÃµ½µ±Ç°Äê
         SimpleDateFormat sdf=new SimpleDateFormat("yyyy");
 
         int year = Integer.parseInt(sdf.format(new Date()));
         sdf=new SimpleDateFormat("MM");
-        int month = Integer.parseInt(sdf.format(new Date()))-1;//è€å¤–æ˜¯ä»¥0ä½œä¸ºç¬¬ä¸€ä¸ªæœˆ
+        int month = Integer.parseInt(sdf.format(new Date()))-1;//ÀÏÍâÊÇÒÔ0×÷ÎªµÚÒ»¸öÔÂ
 
-        calendar.set(Calendar.YEAR, year);// è®¾ç½®å¹´ä»½
-        calendar.set(Calendar.MONTH, month);// è®¾ç½®æœˆä»½
-        calendar.set(Calendar.DATE, 0);// è®¾ç½®æ—¥æœŸ
+        calendar.set(Calendar.YEAR, year);// ÉèÖÃÄê·İ
+        calendar.set(Calendar.MONTH, month);// ÉèÖÃÔÂ·İ
+        calendar.set(Calendar.DATE, 0);// ÉèÖÃÈÕÆÚ
         int days = chooseMonth(month + 1);
-        System.out.println(year + " å¹´ " + (month + 1) + " æœˆ çš„ æ—¥ å† å¦‚ ä¸‹ï¼š");
-        System.out.println("æ˜ŸæœŸæ—¥\tæ˜ŸæœŸä¸€\tæ˜ŸæœŸäºŒ\tæ˜ŸæœŸä¸‰\tæ˜ŸæœŸå››\tæ˜ŸæœŸäº”\tæ˜ŸæœŸå…­");
+        System.out.println(year + " Äê " + (month + 1) + " ÔÂ µÄ ÈÕ Àú Èç ÏÂ£º");
+        System.out.println("ĞÇÆÚÈÕ\tĞÇÆÚÒ»\tĞÇÆÚ¶ş\tĞÇÆÚÈı\tĞÇÆÚËÄ\tĞÇÆÚÎå\tĞÇÆÚÁù");
         while (count < days) {
-            calendar.add(Calendar.DAY_OF_MONTH, 1);// è®¾ç½®æ·»åŠ æ—¥å†çš„å‘¨æœŸä¸º1
-            int day = calendar.getTime().getDay();// è·å–æ—¥å†çš„æ˜ŸæœŸå‡ è¡¨ç¤ºæ•°ï¼Œä¾‹å¦‚ï¼š0ï¼šè¡¨ç¤ºæ˜ŸæœŸæ—¥
-            if (count == 0) {// æ ¹æ®æ˜ŸæœŸå‡ æ¥å†³å®šè¾“å…¥å‡ ä¸ªtab
+            calendar.add(Calendar.DAY_OF_MONTH, 1);// ÉèÖÃÌí¼ÓÈÕÀúµÄÖÜÆÚÎª1
+            int day = calendar.getTime().getDay();// »ñÈ¡ÈÕÀúµÄĞÇÆÚ¼¸±íÊ¾Êı£¬ÀıÈç£º0£º±íÊ¾ĞÇÆÚÈÕ
+            if (count == 0) {// ¸ù¾İĞÇÆÚ¼¸À´¾ö¶¨ÊäÈë¼¸¸ötab
                 for (int i = 0; i < day; i++) {
                     System.out.print("\t");
                 }
             }
-            if (day == 0) {// å¦‚æœæ˜¯å‘¨æ—¥äº†åˆ™æ¢è¡Œ
+            if (day == 0) {// Èç¹ûÊÇÖÜÈÕÁËÔò»»ĞĞ
                 System.out.println();
             }
 
@@ -41,17 +41,17 @@ public class ShowMonth {
             String s=si.format(new Date());
 
             if(d==new Integer(s)){
-                System.out.print(calendar.getTime().getDate() +"*"+ "\t");// è·å–æ—¥å†ä¸­æ—¥æœŸæ•°
+                System.out.print(calendar.getTime().getDate() +"*"+ "\t");// »ñÈ¡ÈÕÀúÖĞÈÕÆÚÊı
 
             }else{
 
-                System.out.print(calendar.getTime().getDate() + "\t");// è·å–æ—¥å†ä¸­æ—¥æœŸæ•°
+                System.out.print(calendar.getTime().getDate() + "\t");// »ñÈ¡ÈÕÀúÖĞÈÕÆÚÊı
             }
-            //System.out.print(calendar.getTime().getDate() + "\t");// è·å–æ—¥å†ä¸­æ—¥æœŸæ•°
+            //System.out.print(calendar.getTime().getDate() + "\t");// »ñÈ¡ÈÕÀúÖĞÈÕÆÚÊı
             count++;
         }
     }
-    public static int chooseMonth(int m) {// æ ¹æ®æœˆä»½é€‰æ‹©å¤©æ•°
+    public static int chooseMonth(int m) {// ¸ù¾İÔÂ·İÑ¡ÔñÌìÊı
         int days = 0;
         switch (m) {
             case 2:

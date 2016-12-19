@@ -4,12 +4,12 @@
 public class Student {
 
     public static void main(String[] args) {
-//        Student s=new Student();//æŠŠç±»å˜æˆå¯¹è±¡ï¼Œé»˜è®¤æ„é€ å™¨æ˜¯è‡ªåŠ¨å­˜åœ¨çš„ã€‚
+//        Student s=new Student();//°ÑÀà±ä³É¶ÔÏó£¬Ä¬ÈÏ¹¹ÔìÆ÷ÊÇ×Ô¶¯´æÔÚµÄ¡£
 //        Student s1=s;
 //        System.out.println(s);
 //        System.out.println(s1);
-//        s.setName("Json");//èµ‹å€¼
-//        System.out.print("æˆ‘çš„åå­—å«ï¼š"+s1.getName());//å–å€¼
+//        s.setName("Json");//¸³Öµ
+//        System.out.print("ÎÒµÄÃû×Ö½Ğ£º"+s1.getName());//È¡Öµ
         Student s1;
 
     }
@@ -19,9 +19,9 @@ public class Student {
     }
     Student(int old,int old1,int old2,int old3){
     }
-    public String name;//attribute å«æ˜† default
+    public String name;//attribute ÎÀÀ¥ default
     private int old;
-    private char sex='å¥³';
+    private char sex='Å®';
     public String getAddress() {
         return address;
     }
@@ -43,19 +43,19 @@ public class Student {
     }
 
     public void setSex(char sex) {
-        if(sex!='å¥³'){
-            this.sex = 'å¥³';
-            System.out.println("ä½ å‚»é€¼å•Šï¼");
+        if(sex!='Å®'){
+            this.sex = 'Å®';
+            System.out.println("ÄãÉµ±Æ°¡£¡");
         }
 
     }
 
-    String getName(){//å‘Šè¯‰ç»™åˆ«äººï¼Œè¯»
+    String getName(){//¸æËß¸ø±ğÈË£¬¶Á
         System.out.print(3);
         return name;
     }
 
-    void setName(String name1){//æˆ‘çš„åå­—æ”¹äº†ï¼Œ
+    void setName(String name1){//ÎÒµÄÃû×Ö¸ÄÁË£¬
         System.out.print(2);
         name=name1;
     }

@@ -3,24 +3,24 @@
  */
 public class A {
     public static void main(String[] args) {
-        System.out.println(-6.0/0);//åˆ†å­ åˆ†æ¯éƒ½æ˜¯æ•´æ•° ç»“æœä¸€å®šæ˜¯æ•´æ•°,ä½†æ˜¯å¦‚æœæœ‰å…¶ä»–ç±»å‹çš„è¯ï¼ŒæŒ‰æ•°æ®ç±»å‹å¤§çš„èµ°
+        System.out.println(-6.0/0);//·Ö×Ó ·ÖÄ¸¶¼ÊÇÕûÊı ½á¹ûÒ»¶¨ÊÇÕûÊı,µ«ÊÇÈç¹ûÓĞÆäËûÀàĞÍµÄ»°£¬°´Êı¾İÀàĞÍ´óµÄ×ß
         System.out.println(4%2);
-        System.out.println(2.1%4);//åˆ†å­å°äºåˆ†æ¯çš„ä½™æ•°æ˜¯åˆ†å­
+        System.out.println(2.1%4);//·Ö×ÓĞ¡ÓÚ·ÖÄ¸µÄÓàÊıÊÇ·Ö×Ó
 
         System.out.println(-6%4);
-        System.out.println(6%-4);//ä½™æ•°çš„ç¬¦å·è·Ÿåˆ†å­èµ°
-        System.out.println(-6%-4);//ä½™æ•°çš„ç¬¦å·è·Ÿåˆ†å­èµ°
+        System.out.println(6%-4);//ÓàÊıµÄ·ûºÅ¸ú·Ö×Ó×ß
+        System.out.println(-6%-4);//ÓàÊıµÄ·ûºÅ¸ú·Ö×Ó×ß
 
-      //  System.out.println(6%0);//0ä¸èƒ½åšé™¤æ•°
-        System.out.println(6.0%0);//0ä¸èƒ½åšé™¤æ•° not a number
+      //  System.out.println(6%0);//0²»ÄÜ×ö³ıÊı
+        System.out.println(6.0%0);//0²»ÄÜ×ö³ıÊı not a number
         System.out.println(-6.0%0);
 
         String c="AB";
         char c1='A';
-        char c2='æˆ‘';//Unicode
-        char c3='çˆ±';
-        int i='å«';
-        int i1='å´‘';
+        char c2='ÎÒ';//Unicode
+        char c3='°®';
+        int i='ÎÀ';
+        int i1='‹';
         System.out.println(i);
         System.out.println(i1);
 

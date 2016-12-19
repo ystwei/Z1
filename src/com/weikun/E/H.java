@@ -22,7 +22,7 @@ public class H {
                 System.out.print(myException2);
             }
         }else{
-            System.out.println("å…è®¸ä½ çœ‹æˆ‘ä»¬çš„ç½‘ç«™ï¼");
+            System.out.println("ÔÊĞíÄã¿´ÎÒÃÇµÄÍøÕ¾£¡");
         }
     }
 }
@@ -33,7 +33,7 @@ class MyException1 extends Exception{
     }
     @Override
     public String toString() {
-        return this.old+"å²"+"æˆ‘å¾ˆè€";
+        return this.old+"Ëê"+"ÎÒºÜÀÏ";
     }
 }
 
@@ -44,6 +44,6 @@ class MyException2 extends Exception{
     }
     @Override
     public String toString() {
-        return this.old+"å²"+"æˆ‘å¾ˆå¹´è½»";
+        return this.old+"Ëê"+"ÎÒºÜÄêÇá";
     }
 }

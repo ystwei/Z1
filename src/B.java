@@ -3,6 +3,6 @@
  */
 public class B {
     public static void main(String[] args) {
-        System.out.println("ä¸­å›½\räºº");
+        System.out.println("ÖĞ¹ú\rÈË");
     }
 }

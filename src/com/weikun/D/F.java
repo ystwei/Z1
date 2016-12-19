@@ -5,8 +5,8 @@ package com.weikun.D;
  */
 public class F {
     public static void main(String[] args) {
-        Animal a=new Animal(10,"ç‹—");
-        Animal a1=new Dog(10,"ç‹—");
+        Animal a=new Animal(10,"¹·");
+        Animal a1=new Dog(10,"¹·");
         System.out.println(a.equals(a1));
 
     }
@@ -37,14 +37,14 @@ class Animal{
     }
 
     @Override
-    public boolean equals(Object obj) {//objè¢«æ¯”å¯¹è±¡ thisï¼šæ¯”è¾ƒå¯¹è±¡
-        if(this==obj){//å’±ä¸¤å †ä¸€æ ·ï¼Œ
+    public boolean equals(Object obj) {//obj±»±È¶ÔÏó this£º±È½Ï¶ÔÏó
+        if(this==obj){//ÔÛÁ½¶ÑÒ»Ñù£¬
             return true;
         }
-        if(obj==null){//Objä¸ºç©ºï¼Œèƒ½æ¯”å—ï¼Ÿ
+        if(obj==null){//ObjÎª¿Õ£¬ÄÜ±ÈÂğ£¿
             return false;
         }
-        if(this.getClass()!=obj.getClass()){//ä¸æ˜¯åŒä¸€ä¸ªç§æ—
+        if(this.getClass()!=obj.getClass()){//²»ÊÇÍ¬Ò»¸öÖÖ×å
             return false;
         }
         Animal a=(Animal)obj;

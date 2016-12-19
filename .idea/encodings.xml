@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/19.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/my.ini" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/A.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/B.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/C.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/TestS.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Z.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/D/D.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/D/F.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/D/ShowMonth.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/E/B.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/E/C.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/E/D.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/E/F.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/E/H.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/L/B.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/L/D.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/L/M.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/L/O.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
 </project>
-

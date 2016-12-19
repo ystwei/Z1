@@ -3,14 +3,14 @@
  */
 public class Z extends Z0{
 
-    @Override//é‡å†™æ³¨è§£
+    @Override//ÖØĞ´×¢½â
     void go() {
-        System.out.println("è€ƒå¤§å­¦ï¼Œä½†æ˜¯è€ƒä¸Šäº†");
+        System.out.println("¿¼´óÑ§£¬µ«ÊÇ¿¼ÉÏÁË");
     }
 
     @Override
     public String toString() {
-        return "æˆ‘è¿™é‡Œé¢æœ‰ç§æœ‰æˆå‘˜å¦‚ä¸‹ï¼šname,old,go()";
+        return "ÎÒÕâÀïÃæÓĞË½ÓĞ³ÉÔ±ÈçÏÂ£ºname,old,go()";
     }
 
     public static void main(String[] args) {
@@ -22,19 +22,19 @@ public class Z extends Z0{
 class Z0 extends  Z00{
     @Override
     void   go(){
-        System.out.println("è€ƒå¤§å­¦ï¼Œä½†æ˜¯æ²¡è€ƒä¸Š");
+        System.out.println("¿¼´óÑ§£¬µ«ÊÇÃ»¿¼ÉÏ");
 
     }
 
 
 
     protected void   go(int old){
-        System.out.println("è€ƒå¤§å­¦ï¼Œä½†æ˜¯æ²¡è€ƒä¸Š");
+        System.out.println("¿¼´óÑ§£¬µ«ÊÇÃ»¿¼ÉÏ");
 
     }
 }
 class Z00{
     void go(){
-        System.out.println("è€ƒå°å­¦ï¼");
+        System.out.println("¿¼Ğ¡Ñ§£¡");
     }
 }

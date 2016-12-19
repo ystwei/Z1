@@ -5,7 +5,7 @@ package com.weikun.E;
  */
 public class C {
     public static void main(String[] args) {
-        Professor pro=new Professor("ç”·");
+        Professor pro=new Professor("ÄÐ");
         People p=new People(10,"MIKE",pro);
         System.out.print(p.getPro().getSex());
         People p1= null;
@@ -19,7 +19,7 @@ public class C {
        // p.setName("ROSE");
 
         System.out.println(p1.getPro().getSex());
-        p.getPro().setSex("å¥³");
+        p.getPro().setSex("Å®");
         System.out.println(p1.getPro().getSex());
     }
 }
