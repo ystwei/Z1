@@ -4,3 +4,12 @@ Animal a=实例化;
  作业：
 1.门面设计模式：Facade Pattern
 2.单子设计模式：Single Pattern
+   a:私有构造器，做一个公共的静态的返回自己
+   b：加同步
+   c：使用内部类来实例化自己
+   d：双重检查锁定板 volatile
+3.适配器模式：Adapter Pattern
+   a.类的适配器
+   b.对象的适配器
+4.装饰者模式：Decorator Pattern
+5.观察者模式：

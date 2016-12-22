@@ -7,7 +7,7 @@ public class A {
     private A(){//1私有构造器
 
     }
-    private static A a;//2声明个静态的自己
+    private volatile static A a;//2声明个静态的自己,volatile:在JVM层进行锁定对象
     public static A getInstance(){//3.得到自己的地址
         synchronized(A.class){
 
