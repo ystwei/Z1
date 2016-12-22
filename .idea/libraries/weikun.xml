@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="weikun">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/weikun.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/weikun.jar!/" />
+    </SOURCES>
+  </library>
+</component>

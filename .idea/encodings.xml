@@ -17,10 +17,13 @@
     <file url="file://$PROJECT_DIR$/src/com/weikun/E/D.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/E/F.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/E/H.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/Facade/ModelA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/Facade/ModelB.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/B.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/D.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/M.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/O.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/M/A.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
