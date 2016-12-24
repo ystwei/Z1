@@ -6,7 +6,11 @@ package com.weikun.dy2;
 public class Test {
     public static void main(String[] args) {
 
+
+
         MyProxy my=new MyProxy();
+
+
         Cat c1=(Cat)my.getObject(Cat.class);
         c1.go();
 
