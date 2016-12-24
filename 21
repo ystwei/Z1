@@ -12,4 +12,13 @@ Animal a=实例化;
    a.类的适配器
    b.对象的适配器
 4.装饰者模式：Decorator Pattern
-5.观察者模式：
+5.观察者模式：Observer Pattern
+6.工厂设计模式：Factory Pattern
+  a.简单工厂：Simple Factory Pattern
+  b.工厂方法：Factory Method
+  c.抽象工厂:Abstract Factory
+7.静动态代理模式：
+  a静态代理
+  b动态代理
+    a Jdk版:核心类必须实现接口
+    b CGLIB版：
