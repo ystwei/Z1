@@ -21,7 +21,6 @@
     <file url="file://$PROJECT_DIR$/src/com/weikun/E/H.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/Facade/ModelA.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/Facade/ModelB.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/weikun/FactoryMethod/KFCHanbao.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/FactoryMethod/KFCHanbao.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/FactoryMethod/MOCHanbao.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/B.java" charset="GBK" />
@@ -29,6 +28,7 @@
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/M.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/O.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/M/A.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/N/A.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/SimpleFactory/ProductA.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/SimpleFactory/ProductB.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/decorator/ArtGirl.java" charset="GBK" />
