@@ -29,6 +29,8 @@
     <file url="file://$PROJECT_DIR$/src/com/weikun/L/O.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/M/A.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/N/A.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/N/B.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/weikun/N/C.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/SimpleFactory/ProductA.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/SimpleFactory/ProductB.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/weikun/decorator/ArtGirl.java" charset="GBK" />
