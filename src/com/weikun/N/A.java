@@ -8,22 +8,60 @@ import java.sql.*;
  * Created by Administrator on 2017/3/7.
  */
 public class A {
+    @Test
+    public void delete(){
+        Connection conn=null;
+        PreparedStatement pstmt=null;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bz?useUnicode=true&characterEncoding=utf-8","root","root");
+
+            String sql="delete from a where id=?";
+
+            pstmt=conn.prepareStatement(sql);
+            pstmt.setInt(1,11);
+
+            System.out.println(pstmt.executeUpdate()>0?"³É¹¦":"Ê§°Ü");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally{
+           if(pstmt!=null){
+               try {
+                   pstmt.close();
+               } catch (SQLException e) {
+                   e.printStackTrace();
+               }
+           }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
 
     @Test
     public void add(){
         Connection conn=null;
         PreparedStatement pstmt=null;
-        //1åŠ è½½é©±åŠ¨
+        //1¼ÓÔØÇı¶¯
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bz?useUnicode=true&characterEncoding=utf-8","root","root");
             String sql="insert into a (v_name,v_sex,v_salary) values(?,?,?)";
-
             pstmt=conn.prepareStatement(sql);
-            pstmt.setString(1,"HAERB");
+            pstmt.setString(1,"¹ş¶û±õ");
             pstmt.setString(2,"M");
             pstmt.setFloat(3,9.02f);
-            System.out.println(pstmt.executeUpdate()>0?"æˆåŠŸ":"å¤±è´¥");
+            System.out.println(pstmt.executeUpdate()>0?"³É¹¦":"Ê§°Ü");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -47,23 +85,23 @@ public class A {
 
     }
 
-    @Test//å¸¦æ¡ä»¶çš„æŸ¥è¯¢
+    @Test//´øÌõ¼şµÄ²éÑ¯
     public void queryByCondition(){
         Connection conn=null;
         PreparedStatement pstmt=null;
-        ResultSet rs=null;//ç»“æœé›†
-        //1åŠ è½½é©±åŠ¨
+        ResultSet rs=null;//½á¹û¼¯
+        //1¼ÓÔØÇı¶¯
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            //2åšè¿æ¥
+            //2×öÁ¬½Ó
             conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bz?useUnicode=true&characterEncoding=utf-8","root","root");
-            //3.æ‰§è¡Œsql
-            String sql="select * from orderitems where item_price>? ";//SQLæ³¨å…¥æ”»å‡»
+            //3.Ö´ĞĞsql
+            String sql="select * from orderitems where item_price>? ";//SQL×¢Èë¹¥»÷
             pstmt=conn.prepareStatement(sql);
             pstmt.setFloat(1,10f);
             rs=pstmt.executeQuery();
-            //4éå†ç»“æœé›†
-            while(rs.next()){//æ˜¯å¦æœ‰ç»“æœæ•°æ®ï¼Œå¦‚æœæœ‰ä¸ºtrueï¼Œå¦åˆ™ä¸ºflase
+            //4±éÀú½á¹û¼¯
+            while(rs.next()){//ÊÇ·ñÓĞ½á¹ûÊı¾İ£¬Èç¹ûÓĞÎªtrue£¬·ñÔòÎªflase
                 System.out.printf("%s---%.2f\n",
                         rs.getString("prod_id"),
                         rs.getFloat("item_price"));
@@ -71,14 +109,14 @@ public class A {
         } catch (Exception e) {
             e.printStackTrace();
         }finally{
-            try {//å…³é—­
-                if(rs!=null){//é˜²æ­¢å‡ºç°ç©ºæŒ‡é’ˆé”™è¯¯
+            try {//¹Ø±Õ
+                if(rs!=null){//·ÀÖ¹³öÏÖ¿ÕÖ¸Õë´íÎó
                     rs.close();
                 }
-                if(pstmt!=null){//é˜²æ­¢å‡ºç°ç©ºæŒ‡é’ˆé”™è¯¯
+                if(pstmt!=null){//·ÀÖ¹³öÏÖ¿ÕÖ¸Õë´íÎó
                     pstmt.close();
                 }
-                if(conn!=null){//é˜²æ­¢å‡ºç°ç©ºæŒ‡é’ˆé”™è¯¯
+                if(conn!=null){//·ÀÖ¹³öÏÖ¿ÕÖ¸Õë´íÎó
                     conn.close();
                 }
 
@@ -93,20 +131,20 @@ public class A {
 
     @Test
     public void queryAll(){
-        Connection conn=null;//è¿æ¥å¯¹è±¡
-        PreparedStatement pstmt=null;//å¤„ç†sqlçš„å¯¹è±¡
-        ResultSet rs=null;//ç»“æœé›†
-        try {  //1.åŠ è½½é©±åŠ¨åˆ°å†…å­˜
+        Connection conn=null;//Á¬½Ó¶ÔÏó
+        PreparedStatement pstmt=null;//´¦ÀísqlµÄ¶ÔÏó
+        ResultSet rs=null;//½á¹û¼¯
+        try {  //1.¼ÓÔØÇı¶¯µ½ÄÚ´æ
             Class.forName("com.mysql.jdbc.Driver");
-            //2åšè¿æ¥,ä¿è¯ä½ è¿›æ•°æ®ä¸èƒ½å‡ºç°ä¹±ç 
+            //2×öÁ¬½Ó,±£Ö¤Äã½øÊı¾İ²»ÄÜ³öÏÖÂÒÂë
             conn=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bz?useUnicode=true&characterEncoding=utf-8",
                     "root",
                     "root");
             String sql="select * from orderitems";
-            //3.æ‰§è¡Œsqlè¯­å¥
+            //3.Ö´ĞĞsqlÓï¾ä
             pstmt=conn.prepareStatement(sql);
-            rs=pstmt.executeQuery();            //4éå†ç»“æœé›†
-            while(rs.next()){//æ˜¯å¦æœ‰ç»“æœæ•°æ®ï¼Œå¦‚æœæœ‰ä¸ºtrueï¼Œå¦åˆ™ä¸ºflase
+            rs=pstmt.executeQuery();            //4±éÀú½á¹û¼¯
+            while(rs.next()){//ÊÇ·ñÓĞ½á¹ûÊı¾İ£¬Èç¹ûÓĞÎªtrue£¬·ñÔòÎªflase
                 System.out.printf("%s---%.2f\n",
                         rs.getString("prod_id"),
                         rs.getFloat("item_price"));
@@ -117,7 +155,7 @@ public class A {
             try {
                 rs.close();
                 pstmt.close();
-                conn.close();//5å…³é—­è¿æ¥
+                conn.close();//5¹Ø±ÕÁ¬½Ó
             } catch (SQLException e) {
                 e.printStackTrace();
             }
